@@ -407,6 +407,50 @@ img.rock:hover {
   transition: all 0.3s;
 }
 
+.wind-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60vh;
+  position: relative;
+  background: linear-gradient(199deg, #3b864f 0%, rgba(70, 170, 113, 0.877188) 50%, rgba(44, 255, 0, 0.597076) 100%);
+}
+
+.wind-section #windelement {
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  top: 6px;
+}
+
+.desc5 {
+  position: absolute;
+  top: 15rem;
+  left: 5rem;
+}
+
+img.wind1 {
+  position: absolute;
+  margin-top: 9.7rem;
+}
+
+img.wind1:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
 @media screen and (max-width: 724px) {
   body {
     overflow-x: hidden;
