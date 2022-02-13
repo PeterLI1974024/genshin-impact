@@ -188,7 +188,7 @@ section.backimage {
 }
 
 img.wind {
-  transform: scale(1.25);
+  transform: scale(1.15);
   position: absolute;
   margin-top: 6rem;
   &:hover {
@@ -305,7 +305,7 @@ img.ice {
 }
 img.rock {
   position: absolute;
-  margin-top: 8.7rem;
+  margin-top: 9rem;
   &:hover {
     transform: scale(1.05);
   }
