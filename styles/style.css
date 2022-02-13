@@ -248,7 +248,7 @@ img.wind {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
   position: absolute;
-  margin-top: 6rem;
+  margin-top: 7rem;
 }
 
 img.wind:hover {
@@ -397,7 +397,7 @@ img.ice:hover {
 
 img.rock {
   position: absolute;
-  margin-top: 9rem;
+  margin-top: 9.7rem;
 }
 
 img.rock:hover {
