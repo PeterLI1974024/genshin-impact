@@ -245,8 +245,8 @@ section.backimage button a:hover {
 }
 
 img.wind {
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
   position: absolute;
   margin-top: 6rem;
 }
@@ -397,12 +397,14 @@ img.ice:hover {
 
 img.rock {
   position: absolute;
-  margin-top: 8.7rem;
+  margin-top: 9rem;
 }
 
 img.rock:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 @media screen and (max-width: 724px) {
